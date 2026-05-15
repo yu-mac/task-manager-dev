@@ -1,0 +1,26 @@
+# Claude Code
+settings.local.json
+scheduled_tasks.lock
+.mcp.json
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 環境変数
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mock (Vite/Node)
+mock/node_modules/
+mock/dist/
+mock/.vite/
+mock/package-lock.json
