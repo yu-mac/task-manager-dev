@@ -19,7 +19,12 @@ Thumbs.db
 *.swo
 *~
 
-# Mock (Vite/Node)
+# Node
+node_modules/
+dist/
+.vite/
+
+# Mock
 mock/node_modules/
 mock/dist/
 mock/.vite/

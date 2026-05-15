@@ -1,0 +1,14 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "concurrently -n FE,BE -c cyan,green \"npm run dev -w packages/frontend\" \"npm run dev -w packages/backend\"",
+    "test": "npm run test --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
